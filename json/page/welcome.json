@@ -1,0 +1,8 @@
+{
+    "bg":
+    {
+        "type":"template",
+        "template":"{% for bg in data%}<div class='{{bg}}'></div>{% endfor %}",
+        "data":["bg1","bg2","bg3","bg4","bg5"]
+    }
+}

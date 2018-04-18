@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<head>
+    <title>pxwangTest</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/base/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/base/vue.min.js"></script>
+    <script type="text/javascript" src="js/base/Gettext.js"></script>
+    <script type="text/javascript" src="js/system/str.js"></script>
+    <script type="text/javascript" src="js/system/system.js"></script>
+    <script type="text/javascript" src="js/core/EventDispatcher.js"></script>
+    <script type="text/javascript" src="js/core/page.tmp2.js"></script>
+    <script type="text/javascript" src="js/core/control.js"></script>
+    <script type="text/javascript" src="js/core/timer.min.js"></script>
+    <script type="text/javascript" src="js/avg/player.js"></script>
+    <script type="text/javascript" src="js/avg/mainmenu.js"></script>
+    <script type="text/javascript" src="js/avg/tv_editor.js"></script>
+    <script type="text/javascript" src="js/avg/hdd_info.js"></script>
+    <script type="text/javascript" src="js/avg/record.js"></script>
+    <script type="text/javascript" src="js/avg/recordmanagement.js"></script>
+    <script type="text/javascript" src="js/avg/email.js"></script>
+    <script type="text/javascript" src="js/avg/entitlement.js"></script>
+    <script type="text/javascript" src="js/avg/recordconfig.js"></script>
+    <script type="text/javascript" src="js/avg/language.js"></script>
+    <script type="text/javascript" src="js/avg/welcome.js"></script>
+    <script type="text/javascript" src="js/avg/programsearch.js"></script>
+    <script type="text/javascript" src="js/avg/searchresult.js"></script>
+    <script type="text/javascript" src="js/avg/epg.js"></script>
+    <script type="text/javascript" src="js/avg/pic.js"></script>
+    <script type="text/javascript" src="js/avg/messagebox.js"></script>
+    <script type="text/javascript" src="js/avg/pincode.js"></script>
+    <script type="text/javascript" src="js/avg/keyboard.js"></script>
+    <script type="text/javascript" src="js/avg/debug.js"></script>
+    <script type="text/javascript" src="js/avg/timerdebug.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link rel="gettext" type="application/x-po" href="langs/zh_CN.po" />
+    <link rel="gettext" type="application/x-po" href="langs/en.po" />
+</head>
+
+<body>
+    <div class="app">
+        <div id="pr" class="vpage" ptype="vpage">
+            <div class="pbg"></div>
+            <div class="psw">
+                <div id="prl" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+                <div id="prc" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+                <div id="pra" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+                <div id="prv" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+                <div id="pri" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mu" class="fpage" ptype="page">
+            <div class="pbg"></div>
+            <div class="psw">
+                <div id="muf" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+                <div id="mus" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="svw" class="sview" ptype="view">
+            <div class="vbg"></div>
+            <div class="vsw">
+                <div id="tr" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="trl" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ho" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="hol" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="rd" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="rdl" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="rt" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="rtl" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="el" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="ell" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="et" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="etl" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="rg" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="rgc" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="le" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="lec" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="we" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="wec" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ph" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="phc" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                        <div id="phm" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="st" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="lvw" class="lview" ptype="view">
+            <div class="vbg"></div>
+            <div class="vsw">
+                <div id="eg" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="egd" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                        <div id="egc" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                        <div id="ege" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pc" class="spage" ptype="page">
+                    <div class="pbg"></div>
+                    <div class="psw">
+                        <div id="pcl" class="area" ptype="area">
+                            <div class="abg"></div>
+                            <div class="asw">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mx" class="vpage" ptype="vpage">
+            <div class="pbg"></div>
+            <div class="psw">
+                <div id="mxc" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pe" class="vpage" ptype="vpage">
+            <div class="pbg"></div>
+            <div class="psw">
+                <div id="pei" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="kd" class="vpage" ptype="vpage">
+            <div class="pbg"></div>
+            <div class="psw">
+                <div id="kdi" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="dg" class="vpage" ptype="vpage">
+            <div class="pbg"></div>
+            <div class="psw">
+            </div>
+        </div>
+        <div id="tg" class="vpage" ptype="vpage">
+            <div class="pbg"></div>
+            <div class="psw">
+                <div id="tgc" class="area" ptype="area">
+                    <div class="abg"></div>
+                    <div class="asw">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

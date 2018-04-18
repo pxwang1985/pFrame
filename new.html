@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <title>pxwangTest</title>
+    <link rel="stylesheet" type="text/css" href="css/a.css" />
+
+    <script type="text/javascript" src="js/base/jquery-3.2.1.min.js"></script>
+    <script>
+
+        var tapParams = { timer: {}, element: {}, tapStartTime: 0, type: 'increment' };
+        function key_clearTapTimer() { clearTimeout(tapParams.timer); }
+        function keyEvent(aEvent, aType) {
+            tapParams = { tapStartTime: new Date().getTime() / 1000, type: aType };
+            key_changeNumber();
+        }
+
+        var gvalue = 1;
+        function key_changeNumber() {
+            var currentDate = new Date().getTime() / 1000;
+            var intervalTime = currentDate - tapParams.tapStartTime;
+            if (intervalTime < 1) { intervalTime = 0.5; }
+            var secondCount = intervalTime * 10;
+            if (intervalTime == 3) { secondCount = 50; }
+            if (intervalTime >= 4) { secondCount = 100; }
+
+            var numberElement = $('.number');
+            if (tapParams.type == 'increment') {
+                gvalue += 1;
+            } else if (tapParams.type == 'decrement') {
+                gvalue -= 1;
+            }
+            numberElement.val(gvalue <= 0 ? 1 : gvalue);
+            tapParams.timer = setTimeout('key_changeNumber()', 1000 / secondCount);
+        }
+        var lastkeyCode = -1;
+        var keytotal = 0;
+        var lasttime = 0;
+        function test_onkeydown(event) {
+            var now_time = new Date().getTime();
+            var tmp = now_time-lasttime;
+            lasttime = now_time;
+            if ((event.keyCode == lastkeyCode)&&(tmp<200)) {
+                keytotal++;
+            }
+            else {
+                lastkeyCode = event.keyCode;
+                console.log(" butong ");
+                switch (event.keyCode) {
+                    case 38: {
+                        //tapEvent(event, 'increment');
+                    } break;
+                    case 40: {
+                        //tapEvent(event, 'decrement');
+                    } break;
+                }
+            }
+        }
+        function test_onkeyup(event) {
+            if (event.keyCode == lastkeyCode) {
+                console.log("Up Do",keytotal);
+                lastkeyCode = -1;
+                keytotal = 0;
+                clearTapTimer();
+            }
+        }
+
+        function clearTapTimer() {
+            console.log("clearTapTimer", tapParams.timer);
+            clearTimeout(tapParams.timer);
+        }
+        function tapEvent(aEvent, aType) {
+            console.log(aEvent);
+            tapParams = { element: aEvent.target, tapStartTime: new Date().getTime() / 1000, type: aType };
+            changeNumber();
+        }
+        function changeNumber() {
+            var currentDate = new Date().getTime() / 1000;
+            var intervalTime = currentDate - tapParams.tapStartTime;
+            if (intervalTime < 1) { intervalTime = 0.5; }
+            var secondCount = intervalTime * 10;
+            if (intervalTime == 3) { secondCount = 50; }
+            if (intervalTime >= 4) { secondCount = 100; }
+
+            var numberElement = $('.number');
+            var currentNumber = parseInt(numberElement.val());
+
+            if (tapParams.type == 'increment') {
+                currentNumber += 1;
+            } else if (tapParams.type == 'decrement') {
+                currentNumber -= 1;
+            }
+            numberElement.val(currentNumber <= 0 ? 1 : currentNumber);
+            tapParams.timer = setTimeout('changeNumber()', 1000 / secondCount);
+        }
+
+    </script>
+
+</head>
+
+<body onkeydown="test_onkeydown(event)" onkeyup="test_onkeyup(event)">
+    <div class="container">
+        <div class="section">
+            <div class="decrement" onmousedown="tapEvent(event, 'decrement')" onmouseup="clearTapTimer()">－</div>
+            <input class="number" value="1">
+            <div class="increment" onmousedown="tapEvent(event, 'increment')" onmouseup="clearTapTimer()">＋</div>
+        </div>
+    </div>
+</body>
+
+</html>

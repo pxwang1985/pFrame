@@ -1,0 +1,34 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":""        
+    },    
+    "son":
+    [        
+        {"type":"area","name":"mu_area","sn":"mmup","class":"farea","cfg":"mu_area"},
+        {"type":"area","name":"mul_area","sn":"mmup","class":"farea","cfg":"mul_area"}
+    ],
+
+    "mu_area":
+    [
+        {"type":"control","name":"mm_tree1","sn":"me1","sort":"farea","cfg":"mm_tree1"}
+    ],
+
+    "mm_tree1":
+    {
+        "type":"data",
+        "data":[
+            {"type":"control","name":"mm_tree1"},
+            {"type":"control","name":"mm_tree1"},
+            {"type":"control","name":"mm_tree1"},
+            {"type":"control","name":"mm_tree1"},
+            {"type":"control","name":"mm_tree1"},
+            {"type":"control","name":"mm_tree1"},
+            {"type":"control","name":"mm_tree1"},
+            {"type":"control","name":"mm_tree1"}
+        ]
+    }
+
+    
+}

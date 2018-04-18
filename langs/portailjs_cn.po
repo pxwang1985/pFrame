@@ -1,0 +1,992 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-22 10:45+0100\n"
+"PO-Revision-Date: 2011-12-22 10:52+0100\n"
+"Last-Translator: Yannick Brehon <y.brehon@qubic.tv>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"domain: chn\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: C:\\\\Users\\\\qiplay\\\\Desktop\\\\lounis\\\\workspace\\\\portailJS\\\\trunk\\\\lib\\\\tv\\\\qubic\\\\components\\\\contents\n"
+"X-Poedit-SearchPath-1: C:\\\\Users\\\\qiplay\\\\Desktop\\\\lounis\\\\workspace\\\\portailJS\\\\trunk\\\\lib\\\\tv\\\\qubic\\\\components\\\\containers\n"
+"X-Poedit-SearchPath-2: C:\\\\Users\\\\qiplay\\\\Desktop\\\\lounis\\\\workspace\\\\portailJS\\\\trunk\\\\lib\\\\tv\\\\qubic\\\\components\\\\controls\n"
+"X-Poedit-SearchPath-3: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\n"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/AdultContentArea.js:25
+msgid "WARNING: This area contains explicit adult material"
+msgstr "警告：本区域包含成人资源"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/AdultContentArea.js:65
+msgid "Enter"
+msgstr "进入"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/AdultContentArea.js:66
+msgid "Leave"
+msgstr "离开"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/AdultContentArea.js:103
+msgid "Please enter access code"
+msgstr "请输入密码"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/AudioPlayerPanel.js:46
+msgid "audio player"
+msgstr "音乐播放器"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/AudioPlayerPanel.js:51
+msgid "playlist"
+msgstr "播放列表"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/AudioPlayerPanel.js:56
+msgid "track"
+msgstr "音轨"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BillingPanel.js:38
+msgid "Asking server. Please wait..."
+msgstr "等待服务中。请稍候......"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BillingPanel.js:43
+msgid "your bill"
+msgstr "账单"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BillingPanel.js:48
+msgid "The server is unreachable. Please try later."
+msgstr "本服务目前无法访问。请稍后再试。"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BillingPanel.js:230
+#, fuzzy
+msgid "{month}/{day}/{year} at {hours}:{minutes}:{seconds}"
+msgstr "{year}/{month}/{day} 于 {hours}:{minutes}:{seconds}"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BillingPanel.js:235
+msgid "last update : {date}"
+msgstr "最后一次更新 : {date}"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BookContent.js:23
+msgid "Rent this book"
+msgstr "租赁本书"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BookContent.js:28
+msgid "Read this book"
+msgstr "阅读本书"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BookContent.js:34
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/GameContent.js:34
+msgid "author"
+msgstr "作者"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BookContent.js:35
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/GameContent.js:35
+msgid "category"
+msgstr "类别"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/BookContent.js:36
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/GameContent.js:36
+msgid "pages"
+msgstr "页"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/ContextHelpPanel.js:29
+msgid "remote help"
+msgstr "远程帮助"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/FilteredMosaicContent.js:993
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/FilteredMosaicContent.js:1028
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/IptvContent.js:514
+msgid "all"
+msgstr "所有"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/GameContent.js:23
+#, fuzzy
+msgid "rent this game"
+msgstr "租赁本片"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/GameContent.js:28
+#, fuzzy
+msgid "play this game"
+msgstr "播放本片"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/IptvContent.js:101
+msgid "Fullscreen"
+msgstr "全屏"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/IptvContent.js:114
+msgid "Category"
+msgstr "类别"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/IptvContent.js:115
+msgid "Duration"
+msgstr "持续时间"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/IptvContent.js:116
+msgid "Language"
+msgstr "语言"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/LangContent.js:64
+msgid "Choose a language for the interface and press {ok}"
+msgstr "选择界面语言并按{ok}键"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/ListDetail.js:28
+msgid "information"
+msgstr "信息"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/MagazineContent.js:12
+msgid "periodicity"
+msgstr "周期"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/MagazineContent.js:20
+msgid "Rent this magazine"
+msgstr "租赁本杂志"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/MagazineContent.js:25
+msgid "Read this magazine"
+msgstr "阅读本杂志"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/MirroredAudioPlayerPanel.js:79
+msgid "help"
+msgstr "帮助"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/ModContent.js:28
+msgid "%1 track"
+msgstr "%1 本项"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/ModContent.js:29
+msgid "%1 tracks"
+msgstr "%1 全部"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/ModContent.js:75
+msgid "play all tracks"
+msgstr "播放所有曲目"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/ModContent.js:80
+msgid "queue all tracks"
+msgstr "队列中的所有曲目"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/ModContent.js:193
+msgid "Year"
+msgstr "年"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/ModContent.js:291
+msgid "add to playlist"
+msgstr "ajouter à la paylist"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/ModContent.js:292
+msgid "add and play playlist"
+msgstr "ajouter à la playlist et la jouer"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/PlayListTitlePanel.js:23
+msgid "your playlists"
+msgstr "播放列表"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/PPT2FlashContent.js:29
+msgid "Fullscreen mode"
+msgstr "全屏模式"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/RadioContent.js:94
+msgid "language"
+msgstr "语言"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/RebootPanel.js:16
+msgid "Maintenance :<br> system going down<br> for reboot in <br>{n} second(s)."
+msgstr "Maintenance:<br>le système va<br>redémarrer dans<br>{n} seconde(s)."
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/RebootPanel.js:21
+msgid "press OK to cancel"
+msgstr "appuyer sur OK pour annuler"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/RemoteHelpPanel.js:26
+msgid "close"
+msgstr "关闭"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/UnderConstructionContent.js:26
+msgid "service unavailable"
+msgstr "服务不可用"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:157
+msgid "Fullscreen trailer"
+msgstr "全屏预告片"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:162
+msgid "Please wait..."
+msgstr "请稍候......"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:167
+msgid "Rent this movie"
+msgstr "租赁本片"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:172
+msgid "Play this movie"
+msgstr "播放本片"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:177
+msgid "Please confirm your rental for this movie<br>{title}<br>for {price}"
+msgstr "请确认本片的租金<br>{title}<br>付 {price}"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:200
+msgid "Director"
+msgstr "导演"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:201
+msgid "Genre"
+msgstr "类型"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:801
+msgid "Validate"
+msgstr "批准"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:802
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:845
+msgid "Cancel"
+msgstr "取消"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:821
+msgid "from where you left off ?"
+msgstr "继续上次？"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:822
+msgid "from the beginning ?"
+msgstr "从头开始？"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:830
+msgid "Do you wish to start playback"
+msgstr "你想开始播放"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:843
+msgid "Bookmark your position in this movie"
+msgstr "在此处加入书签"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:844
+msgid "Stop this movie"
+msgstr "停止播放本片"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:853
+msgid "Please select an action"
+msgstr "请选择一个动作"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:1124
+msgid "please choose the audio track"
+msgstr "请选择音轨"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:1171
+msgid "please choose the subtitle track"
+msgstr "请选择字幕轨"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:1309
+msgid "no information available"
+msgstr "无相关信息"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/VodContent.js:1464
+msgid "{hour}h {min}mn {sec}s"
+msgstr "{hour}时 {min}分 {sec}秒"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/WebBrowser.js:11
+msgid "{ok} to start internet browser"
+msgstr "{ok} 启动互联网浏览器"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/WebBrowser.js:27
+msgid "To stop internet browser: <br>Press and hold the Green button<br>or, Press Ctrl-Q on the Keyboard <br>or, go to the File Menu and click on 'Quit'"
+msgstr "关闭互联网浏览器: <br>长按绿键<br>或在键盘中按Ctrl+Q<br>或者在菜单中选择 '退出'"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/WebContent.js:61
+msgid "launch website"
+msgstr "启动网站"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/WebContent.js:65
+msgid "Please note that all websites are not optimized for TV-display. Some slight inconsistencies may therefore be observed."
+msgstr "请注意，所有的网站都不适合电视上显示。因此可能观察到轻微的不一致。"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\contents/WebContent.js:70
+msgid "Press the green button a while to stop the internet browser."
+msgstr "长按绿键来关闭互联网浏览器"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\containers/Directory.js:35
+msgid "information / reservation"
+msgstr "信息 / 预约"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\containers/Directory.js:40
+msgid "back to directory"
+msgstr "返回目录"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\containers/VideoOnDemand.js:97
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\containers/Web.js:99
+msgid "categories"
+msgstr "类别"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\containers/VideoOnDemand.js:98
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\containers/Web.js:106
+msgid "languages"
+msgstr "语言"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\containers/VideoOnDemand.js:501
+msgid "none"
+msgstr "没有"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/AccessCodePanel.js:46
+msgid "ok"
+msgstr "确认"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/AccessCodePanel.js:46
+msgid "cancel"
+msgstr "取消"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/BillingList.js:52
+msgid "date"
+msgstr "日期"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/BillingList.js:57
+msgid "time"
+msgstr "时间"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/BillingList.js:62
+msgid "label"
+msgstr "标签"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/BillingList.js:67
+msgid "amount"
+msgstr "总计"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/BillingList.js:72
+msgid "total amount"
+msgstr "总计"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/BillingList.js:105
+msgid "{month}/{day}/{year}"
+msgstr "{year}/{month}/{day}"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/BookViewer.js:1768
+msgid "Page"
+msgstr "页"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/BookViewer.js:1770
+msgid "Pages"
+msgstr "页"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:16
+msgid "english"
+msgstr "英语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:17
+msgid "french"
+msgstr "法语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:18
+msgid "german"
+msgstr "德语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:19
+msgid "spanish"
+msgstr "西班牙语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:20
+msgid "arabic"
+msgstr "阿拉伯语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:22
+msgid "italian"
+msgstr "意大利语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:23
+msgid "dutch"
+msgstr "荷兰语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:24
+msgid "portuguese"
+msgstr "葡萄牙语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:25
+msgid "russian"
+msgstr "俄语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:26
+msgid "japanese"
+msgstr "日语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:28
+msgid "chinese"
+msgstr "汉语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:29
+msgid "greek"
+msgstr "希腊语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:30
+msgid "hebrew"
+msgstr "希伯来语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:31
+msgid "hindi"
+msgstr "北印度语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:32
+msgid "panjabi"
+msgstr "旁遮普语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:34
+msgid "polish"
+msgstr "波兰语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:35
+msgid "romanian"
+msgstr "罗马尼亚语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:36
+msgid "swedish"
+msgstr "瑞典语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:37
+msgid "norwegian"
+msgstr "挪威语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:38
+msgid "danish"
+msgstr "丹麦语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:40
+msgid "finnish"
+msgstr "芬兰语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:41
+msgid "turkish"
+msgstr "土耳其语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:42
+msgid "ukrainian"
+msgstr "乌克兰语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:43
+msgid "uzbek"
+msgstr "乌兹别克语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:44
+msgid "vietnamese"
+msgstr "越南语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:46
+msgid "afrikaans"
+msgstr "南非荷兰语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:47
+msgid "belarusian"
+msgstr "白俄罗斯语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:48
+msgid "bosnian"
+msgstr "波斯尼亚语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:49
+msgid "bulgarian"
+msgstr "保加利亚语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:50
+msgid "catalan"
+msgstr "加泰罗尼亚语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:52
+msgid "croatian"
+msgstr "克罗地亚语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/FlagList.js:53
+msgid "indonesian"
+msgstr "印度尼西亚语"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/ListPager.js:27
+msgid "pages :"
+msgstr "页数 :"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/PlaylistDetail.js:194
+msgid "Remove this track"
+msgstr "删除本项"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/PlaylistDetail.js:200
+msgid "Play this track"
+msgstr "播放本项"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/PlaylistDetail.js:203
+msgid "Stop this track"
+msgstr "停止本项"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/PlaylistDetail.js:205
+msgid "Pause this track"
+msgstr "暂停本项"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/PlaylistNames.js:187
+msgid "Remove all tracks"
+msgstr "删除全部"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/PlaylistNames.js:188
+msgid "Rename playlist"
+msgstr "重命名播放列表"
+
+#: C:\\Users\\qiplay\\Desktop\\lounis\\workspace\\portailJS\\trunk\\lib\\tv\\qubic\\components\\controls/PlaylistNames.js:193
+msgid "Select this playlist"
+msgstr "选择播放列表"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:2
+msgid "Action"
+msgstr "动作"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:3
+msgid "Animated Movie"
+msgstr "动画电影"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:4
+msgid "Martial Arts"
+msgstr "武术片"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:5
+msgid "Adventure"
+msgstr "冒险片"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:6
+msgid "Biopic"
+msgstr "传记电影"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:7
+msgid "Ballet"
+msgstr "芭蕾舞剧"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:8
+msgid "Bollywood"
+msgstr "宝莱坞"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:9
+msgid "Disaster"
+msgstr "灾难片"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:10
+msgid "Classic"
+msgstr "经典"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:11
+msgid "Comedy"
+msgstr "喜剧"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:12
+msgid "Musical"
+msgstr "音乐剧"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:13
+msgid "Concert"
+msgstr "音乐会"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:14
+msgid "Cartoon"
+msgstr "卡通片"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:15
+msgid "Crime"
+msgstr "犯罪"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:16
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:45
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:17
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:41
+msgid "Documentary"
+msgstr "纪录片"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:18
+msgid "Drama"
+msgstr "戏剧"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:19
+msgid "Horror"
+msgstr "恐怖片"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:20
+msgid "Erotic"
+msgstr "情色片"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:21
+msgid "Espionage"
+msgstr "间谍片"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:22
+msgid "Family "
+msgstr "家庭"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:23
+msgid "Film noir"
+msgstr "黑色电影"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:24
+msgid "Fantasy"
+msgstr "奇幻"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:25
+msgid "War"
+msgstr "战争"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:26
+msgid "Epics / Historical"
+msgstr "电影史诗 / 历史"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:27
+msgid "Dance"
+msgstr "舞剧"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:28
+msgid "Opera"
+msgstr "歌剧"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:29
+msgid "Sword and sandal"
+msgstr "剑"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:30
+msgid "Romance"
+msgstr "浪漫"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:31
+msgid "Science Fiction"
+msgstr "科幻"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:32
+msgid "Thriller"
+msgstr "惊悚片"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:33
+msgid "Western"
+msgstr "西部风格"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:38
+msgid "Association-run"
+msgstr "联想"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:39
+msgid "Commercial"
+msgstr "商业广告"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:40
+msgid "Cultural"
+msgstr "文化"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:42
+msgid "Entertainment"
+msgstr "娱乐"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:43
+msgid "General Interest"
+msgstr "一般兴趣"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:44
+msgid "Local"
+msgstr "本地"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:46
+msgid "Movies"
+msgstr "电影"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:47
+msgid "Music"
+msgstr "音乐"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:48
+msgid "News"
+msgstr "新闻"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:49
+msgid "Pay TV"
+msgstr "付费电视"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:50
+msgid "Public Service"
+msgstr "公共服务"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:51
+msgid "Sport"
+msgstr "运动"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:52
+msgid "Thematic"
+msgstr "主题式"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/CategoriesLabels.js:53
+msgid "Youth"
+msgstr "青年"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:2
+msgid "hotel"
+msgstr "旅馆"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:3
+msgid "services"
+msgstr "服务"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:4
+msgid "directory"
+msgstr "指南"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:5
+msgid "visit 360"
+msgstr "访问 360"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:6
+msgid "nearby"
+msgstr "附近"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:7
+msgid "group program"
+msgstr "组播节目"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:8
+msgid "tv"
+msgstr "电视"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:9
+#, fuzzy
+msgid "television"
+msgstr "电视"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:10
+msgid "program guide"
+msgstr "节目指南"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:11
+msgid "magazines"
+msgstr "杂志"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:12
+msgid "video"
+msgstr "视频"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:13
+msgid "movie catalog"
+msgstr "电影目录"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:14
+msgid "audio"
+msgstr "音频"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:15
+msgid "radios"
+msgstr "广播"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:16
+msgid "music catalog"
+msgstr "音乐目录"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:17
+msgid "playlists"
+msgstr "播放列表"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:18
+msgid "store"
+msgstr "商店"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:19
+msgid "hotel shop"
+msgstr "旅馆购物"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:20
+msgid "room service"
+msgstr "房间服务"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:21
+msgid "basket"
+msgstr "篮子"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:22
+msgid "account"
+msgstr "账户"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:24
+msgid "setup a wakeup call"
+msgstr "设置叫醒"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:25
+msgid "billing / check out"
+msgstr "账单 / 退房"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:26
+msgid "report a problem"
+msgstr "反馈问题"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:27
+msgid "games"
+msgstr "游戏"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:28
+msgid "web"
+msgstr "网络"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:29
+msgid "web browser"
+msgstr "网络浏览器"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:30
+msgid "bookmarks"
+msgstr "书签"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:31
+msgid "afp - news"
+msgstr "法新社 - 新闻"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:32
+msgid "bars &amp; clubs"
+msgstr "bars &amp; clubs"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:33
+msgid "restaurants"
+msgstr "restaurants"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:34
+msgid "place to visit"
+msgstr "lieux à visiter"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:35
+msgid "live events"
+msgstr "évènements"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:36
+msgid "list of events"
+msgstr "liste d'évènements"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/menus/MenuLabels.js:37
+msgid "proposed agenda"
+msgstr "proposition d'agenda"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/AdvertWidget.js:21
+msgid "partners<BR>offers"
+msgstr "合伙人<BR>赞助者"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Jan"
+msgstr "一月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Feb"
+msgstr "二月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Mar"
+msgstr "三月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Apr"
+msgstr "四月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "May"
+msgstr "五月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Jun"
+msgstr "六月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Jul"
+msgstr "七月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Aug"
+msgstr "八月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Sept"
+msgstr "九月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Oct"
+msgstr "十月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Nov"
+msgstr "十一月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:53
+msgid "Dec"
+msgstr "十二月"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:54
+msgid "Sun"
+msgstr "星期日"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:54
+msgid "Mon"
+msgstr "星期一"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:54
+msgid "Tue"
+msgstr "星期二"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:54
+msgid "Wed"
+msgstr "星期三"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:54
+msgid "Thu"
+msgstr "星期四"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:54
+msgid "Fri"
+msgstr "星期五"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:54
+msgid "Sat"
+msgstr "星期六"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/components/widgets/DigitClock.js:271
+msgid "{dayName} {date} {monthName} {year}"
+msgstr "{year} {monthName} {date} {dayName}"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/core/QPlayer.js:33
+msgid "<p>Loading<span>...</span></p>"
+msgstr "<p>载入<span>...</span></p>"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/core/QPlayer.js:162
+msgid "Loading configuration"
+msgstr "载入配置"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/core/QPlayer.js:192
+msgid "Config loading error"
+msgstr "配置载入错误"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/core/QPlayer.js:245
+msgid "Initialisation failed. Can't launch application."
+msgstr "初始化失败。不能启动应用"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/core/QPlayer.js:263
+msgid "Epg"
+msgstr "电子节目指南"
+
+#: C:\Users\qiplay\Desktop\lounis\workspace\portailJS\trunk\lib\tv\qubic/core/QPlayer.js:287
+msgid "Initialize module"
+msgstr "初始化模块"
+
+#~ msgid "Musical / Dance"
+#~ msgstr "音乐 / 舞蹈"
+
+#~ msgid "news"
+#~ msgstr "新闻"
+
+#~ msgid "kiosk"
+#~ msgstr "亭"
+
+#~ msgid "products"
+#~ msgstr "产品"
+
+#~ msgid "my favorites"
+#~ msgstr "我的最爱"
+
+#~ msgid "l'oreal professionnel"
+#~ msgstr "欧莱雅专业"
+
+#~ msgid "genres"
+#~ msgstr "流派"
+
+#~ msgid "Marquee this movie"
+#~ msgstr "电影字幕"
+
+#~ msgid "What do you want to do now?"
+#~ msgstr "您现在想做什么？"
+
+#~ msgid "mosaic tv"
+#~ msgstr "马赛克电视"

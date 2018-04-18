@@ -1,0 +1,13 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":""        
+    },
+    "son":
+    [        
+        {"type":"area","name":"orl_area","sn":"orla","class":"farea","cfg":"farea"}
+    ]
+
+    
+}

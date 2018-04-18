@@ -1,0 +1,13 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":"<div class='pincode_bg'></div>"        
+    },    
+    "son":
+    [
+        {"type":"area","name":"pe_area","sn":"peup","class":"farea","cfg":"pe_area"}
+    ]
+
+    
+}

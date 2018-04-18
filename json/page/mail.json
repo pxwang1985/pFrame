@@ -1,0 +1,14 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":""        
+    },
+    "son":
+    [        
+        {"type":"area","name":"mll_area","sn":"mlla","class":"farea","cfg":"farea"},
+        {"type":"area","name":"mla_area","sn":"mlaa","class":"farea","cfg":"farea"}
+    ]
+
+    
+}

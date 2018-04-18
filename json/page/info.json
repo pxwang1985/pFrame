@@ -1,0 +1,17 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":""        
+    },
+    "son":
+    [        
+        {"type":"area","name":"ioc_area","sn":"egva","class":"farea","cfg":"ioc_area"},
+        {"type":"area","name":"ios_area","sn":"egia","class":"farea","cfg":"ios_area"},
+        {"type":"area","name":"ioch_area","sn":"egda","class":"farea","cfg":"ioch_area"},
+        {"type":"area","name":"iou_area","sn":"egca","class":"farea","cfg":"iou_area"},
+        {"type":"area","name":"ioca_area","sn":"egea","class":"farea","cfg":"ioca_area"},
+        {"type":"area","name":"ioud_area","sn":"egea","class":"farea","cfg":"ioud_area"}
+    ]
+    
+}

@@ -1,0 +1,16 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":""        
+    },
+    "son":
+    [        
+        {"type":"area","name":"psc_area","sn":"psca","class":"farea","cfg":"psc_area"},
+        {"type":"area","name":"psa_area","sn":"psaa","class":"farea","cfg":"psa_area"},
+        {"type":"area","name":"psm_area","sn":"psma","class":"farea","cfg":"psm_area"},
+        {"type":"area","name":"psr_area","sn":"psra","class":"farea","cfg":"psr_area"}
+    ]
+
+    
+}

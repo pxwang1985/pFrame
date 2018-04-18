@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-11-30 17:23+0800\n"
+"PO-Revision-Date: 2017-11-30 17:23+0800\n"
+"Last-Translator: pxwang <pxwang@foxmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"domain: en\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ../js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: avg/language.js:48 avg/welcome.js:49
+msgid "Menu Language"
+msgstr ""
+
+#: avg/language.js:48 avg/language.js:49 avg/language.js:50 avg/language.js:51
+#: avg/language.js:52 avg/welcome.js:49
+msgid "en"
+msgstr "English"
+
+#: avg/language.js:48 avg/language.js:49 avg/language.js:50 avg/language.js:51
+#: avg/language.js:52 avg/welcome.js:49
+msgid "chn"
+msgstr "中文"
+
+#: avg/language.js:49
+msgid "First Audio Track"
+msgstr ""
+
+#: avg/language.js:50
+msgid "Second Audio Track"
+msgstr ""
+
+#: avg/language.js:51
+msgid "Subtitle Language"
+msgstr ""
+
+#: avg/language.js:52
+msgid "Teletext Language"
+msgstr ""
+
+#: avg/language.js:53 avg/welcome.js:53
+msgid "Confirm"
+msgstr ""
+
+#: avg/mainmenu.js:25
+msgid "Installation"
+msgstr ""
+
+#: avg/mainmenu.js:25
+msgid "Terrestrial Search DVB_T/T2"
+msgstr ""
+
+#: avg/mainmenu.js:28
+msgid "Channel Edit"
+msgstr ""
+
+#: avg/mainmenu.js:28
+msgid "TV Channel List"
+msgstr ""
+
+#: avg/mainmenu.js:29
+msgid "Radio Channel List"
+msgstr ""
+
+#: avg/mainmenu.js:30
+msgid "EPG"
+msgstr ""
+
+#: avg/mainmenu.js:33
+msgid "Tools"
+msgstr ""
+
+#: avg/mainmenu.js:33
+msgid "Language"
+msgstr ""
+
+#: avg/mainmenu.js:34
+msgid "Time"
+msgstr ""
+
+#: avg/mainmenu.js:35
+msgid "TV Setting"
+msgstr ""
+
+#: avg/mainmenu.js:36
+msgid "Change Password"
+msgstr ""
+
+#: avg/mainmenu.js:39
+msgid "CAS"
+msgstr ""
+
+#: avg/mainmenu.js:39
+msgid "Email"
+msgstr ""
+
+#: avg/mainmenu.js:40
+msgid "Password Modify"
+msgstr ""
+
+#: avg/mainmenu.js:41
+msgid "Entitlement"
+msgstr ""
+
+#: avg/mainmenu.js:42
+msgid "SMC Info"
+msgstr ""
+
+#: avg/mainmenu.js:45
+msgid "System Settings"
+msgstr ""
+
+#: avg/mainmenu.js:45
+msgid "Information"
+msgstr ""
+
+#: avg/mainmenu.js:46
+msgid "Conditional Access"
+msgstr ""
+
+#: avg/mainmenu.js:47
+msgid "Timer Setting"
+msgstr ""
+
+#: avg/mainmenu.js:48
+msgid "OSD Setting"
+msgstr ""
+
+#: avg/mainmenu.js:51
+msgid "Media Center"
+msgstr ""
+
+#: avg/mainmenu.js:51
+msgid "Picture"
+msgstr ""
+
+#: avg/mainmenu.js:52
+msgid "Records"
+msgstr ""
+
+#: avg/mainmenu.js:53
+msgid "Records Configuration"
+msgstr ""
+
+#: avg/mainmenu.js:54
+msgid "HDD Information"
+msgstr ""
+
+#: avg/mainmenu.js:55
+msgid "Records Management"
+msgstr ""
+
+#: avg/programsearch.js:54
+msgid "Auto Scan"
+msgstr ""
+
+#: avg/programsearch.js:55
+msgid "Manual Scan"
+msgstr ""
+
+#: avg/programsearch.js:56 avg/welcome.js:50
+msgid "Antenna Power"
+msgstr ""
+
+#: avg/programsearch.js:56 avg/programsearch.js:58 avg/welcome.js:50
+#: avg/welcome.js:51
+msgid "OFF"
+msgstr ""
+
+#: avg/programsearch.js:56 avg/programsearch.js:58 avg/welcome.js:50
+#: avg/welcome.js:51
+msgid "ON"
+msgstr ""
+
+#: avg/programsearch.js:57
+msgid "FTA+FTV"
+msgstr ""
+
+#: avg/programsearch.js:57
+msgid "NO"
+msgstr ""
+
+#: avg/programsearch.js:57
+msgid "YES"
+msgstr ""
+
+#: avg/programsearch.js:58
+msgid "LCN"
+msgstr ""
+
+#: avg/recordconfig.js:39
+msgid "Single"
+msgstr ""
+
+#: avg/welcome.js:39
+msgid "Welcome"
+msgstr ""
+
+#: avg/welcome.js:51
+msgid "Frequency Channel"
+msgstr ""
+
+#: avg/welcome.js:52
+msgid "Frequency"
+msgstr ""
+
+#: core/timer.js:37
+msgid "year"
+msgstr "-"
+
+#: core/timer.js:38
+msgid "month"
+msgstr "-"
+
+#: core/timer.js:39
+msgid "date"
+msgstr " "

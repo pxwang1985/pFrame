@@ -1,0 +1,746 @@
+body,
+.app,
+.view,
+.page,
+.vpage,
+.spage,
+.lview,
+.sview {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body,
+.app,
+.view,
+.fpage,
+.vpage {
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 720px;
+}
+.app {
+  background-image: url("../src/video.jpg");
+  background-size: 100% 100%;
+}
+.lview {
+  top: 48px;
+  left: 58px;
+  width: 1160px;
+  height: 620px;
+  background: rgba(0, 72, 122, 0.8);
+  border: 2px solid white;
+}
+.sview {
+  top: 78px;
+  left: 118px;
+  width: 1040px;
+  height: 560px;
+  background: rgba(0, 72, 122, 0.8);
+  border: 2px solid white;
+}
+#egd {
+  top: 310px;
+  left: 0px;
+  width: 180px;
+  height: 250px;
+}
+#egc {
+  top: 310px;
+  left: 182px;
+  width: 360px;
+  height: 250px;
+}
+#ege {
+  top: 310px;
+  left: 544px;
+  width: 616px;
+  height: 250px;
+}
+.item {
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  margin-top: 2px;
+  color: white;
+}
+.item_bg {
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  margin-top: 2px;
+  background-color: #9da0a5;
+}
+.edate {
+  float: left;
+  margin-left: 20px;
+  width: 70px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.day {
+  float: left;
+  margin-left: 6px;
+  width: 64px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.id {
+  float: left;
+  margin-left: 20px;
+  width: 46px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.time {
+  float: left;
+  margin-left: 20px;
+  width: 150px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.test {
+  position: absolute;
+  top: 12px;
+  left: 200px;
+  width: 850px;
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ititle {
+  float: left;
+  margin-left: 60px;
+  text-align: left;
+  font-size: 24px;
+  height: 48px;
+  line-height: 48px;
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.item_area {
+  float: right;
+  margin-right: 60px;
+  margin-top: 3px;
+  height: 38px;
+  width: 330px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.item_carea {
+  float: right;
+  margin-right: 220px;
+  margin-top: 9px;
+  height: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.item_value,
+.item_ivalue {
+  position: absolute;
+  float: left;
+  margin-left: 20px;
+  width: 260px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 24px;
+  text-align: center;
+  overflow: hidden;
+}
+.sel_left {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-top: 10px;
+  margin-left: -16px;
+  background-image: url("../img/imput_left.gif");
+  background-size: 100% 100%;
+}
+.sel_right {
+  float: right;
+  width: 24px;
+  height: 24px;
+  margin-top: 10px;
+  margin-right: -16px;
+  background-image: url("../img/imput_right.gif");
+  background-size: 100% 100%;
+}
+.pincode_status {
+  float: right;
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+  margin-right: 6px;
+  display: none;
+}
+.text {
+  float: left;
+  margin-left: 6px;
+  text-align: left;
+  font-size: 24px;
+  height: 48px;
+  line-height: 48px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#egc .text {
+  width: 270px;
+}
+#ege .text {
+  margin-right: 10px;
+  width: 340px;
+}
+.pscroll {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 48px;
+}
+#ege .item_bg:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+#ege .item_bg:nth-child(even) {
+  background-color: #888b90;
+}
+.spage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.view,
+.lview,
+.sview,
+.page,
+.fpage,
+.vpage,
+.spage {
+  display: none;
+  overflow: hidden;
+}
+.area {
+  position: absolute;
+  overflow: hidden;
+}
+.pbg,
+.asw,
+.lsw {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.asw {
+  height: 100%;
+  overflow: hidden;
+}
+.in_pic {
+  width: 100%;
+  height: 100%;
+}
+#mus {
+  position: absolute;
+  top: 58px;
+  left: 258px;
+  height: 350px;
+  width: 760px;
+  background: rgba(0, 72, 122, 0.8);
+  border: 2px solid white;
+}
+#mus > .asw > .item {
+  margin-top: 2px;
+  width: 100%;
+  height: 54px;
+  line-height: 54px;
+  color: white;
+}
+.heads {
+  width: 100%;
+  height: 60px;
+  color: #00afd5;
+  background: rgba(0, 0, 0, 0.4);
+}
+.hor_line {
+  width: 100%;
+  height: 4px;
+  margin-top: 4px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.title {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  width: 400px;
+  height: 50px;
+  line-height: 60px;
+  text-align: left;
+  color: #00afd5;
+  font-size: 36px;
+  letter-spacing: 3px;
+}
+.time_icon {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/icon.gif");
+  background-size: 100% 100%;
+}
+.timeshow {
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  color: white;
+}
+#mus .title {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #00afd5;
+  font-size: 40px;
+  background: rgba(0, 0, 0, 0.4);
+}
+#mus .hor_line {
+  width: 100%;
+  height: 4px;
+  margin-top: 84px;
+  background: rgba(0, 0, 0, 0.4);
+}
+#mus .name {
+  float: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  font-size: 24px;
+}
+#muf {
+  position: absolute;
+  width: 1080px;
+  height: 240px;
+  top: 440px;
+  left: 100px;
+  overflow: hidden;
+}
+#muf > .abg {
+  position: absolute;
+  width: 1080px;
+  height: 180px;
+  top: 80px;
+  left: 0px;
+  overflow: hidden;
+}
+#muf > .abg > .left_arr {
+  float: left;
+  width: 0;
+  height: 0;
+  border-bottom: 120px solid #00487f;
+  border-left: 90px solid transparent;
+}
+#muf > .abg > .center {
+  float: left;
+  width: 900px;
+  height: 120px;
+  background: #00487f;
+}
+#muf > .abg > .right_arr {
+  float: left;
+  width: 0;
+  height: 0;
+  border-bottom: 120px solid #00487f;
+  border-right: 90px solid transparent;
+}
+#muf > .abg > .tail {
+  float: left;
+  width: 1080px;
+  height: 40px;
+  background: #005088;
+}
+#muf .asw {
+  position: absolute;
+  width: 900px;
+  height: 180px;
+  top: 0px;
+  left: 80px;
+}
+#muf .litem {
+  float: left;
+  width: 180px;
+  height: 180px;
+}
+#muf .litem {
+  float: left;
+  width: 180px;
+  height: 180px;
+}
+.list_icon {
+  margin-top: 50px;
+  margin-left: 45px;
+  width: 100px;
+  height: 100px;
+}
+#mus .asw {
+  top: 110px;
+  height: 200px;
+}
+#svw .area {
+  top: 110px;
+  left: 0px;
+  width: 100%;
+  height: 350px;
+}
+#pcl {
+  top: 110px;
+  left: 0px;
+  width: 300px;
+  height: 400px;
+}
+#svw .item {
+  margin-top: 2px;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  color: white;
+  overflow: hidden;
+}
+#svw .tail {
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  height: 60px;
+  color: #00afd5;
+  background: rgba(0, 0, 0, 0.4);
+}
+#svw .item_bg {
+  height: 48px;
+  line-height: 48px;
+}
+#lvw .tail {
+  position: absolute;
+  top: 560px;
+  width: 100%;
+  height: 60px;
+  color: #00afd5;
+  background: rgba(0, 0, 0, 0.4);
+}
+#pc .item {
+  margin-top: 2px;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  color: white;
+  overflow: hidden;
+}
+#pc .text {
+  margin-left: 40px;
+  width: 210px;
+}
+#trl .id {
+  margin-left: 60px;
+}
+#trl .text {
+  margin-left: 80px;
+  width: 560px;
+}
+.chfav,
+.chlock {
+  float: left;
+  margin-left: 80px;
+  margin-top: 10px;
+  width: 30px;
+  height: 28px;
+  overflow: hidden;
+}
+.hdstatus,
+.dstatus {
+  float: left;
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 30px;
+  height: 28px;
+  overflow: hidden;
+}
+.fstatus {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 30px;
+  height: 28px;
+  overflow: hidden;
+}
+.null {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.no {
+  float: left;
+  margin-left: 20px;
+  width: 46px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.format,
+.storage,
+.used,
+.remaining,
+.date {
+  float: left;
+  margin-left: 60px;
+  width: 140px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.rtype,
+.rstatus {
+  float: left;
+  margin-left: 20px;
+  width: 100px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.datetime {
+  float: right;
+  margin-right: 40px;
+  width: 240px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.pathname {
+  float: left;
+  margin-left: 40px;
+  width: 540px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sender {
+  float: right;
+  margin-right: 20px;
+  width: 140px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.emstatus {
+  float: left;
+  margin-left: 40px;
+  width: 140px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.etstatus {
+  float: left;
+  margin-left: 40px;
+  width: 240px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.order,
+.rec {
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 36px;
+  height: 38px;
+  overflow: hidden;
+}
+#ell .text {
+  margin-left: 40px;
+  width: 540px;
+}
+#rtl .text {
+  margin-left: 20px;
+  width: 320px;
+}
+#et .no {
+  float: left;
+  margin-left: 40px;
+  width: 46px;
+  text-align: left;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#mx {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+#mx .pbg {
+  height: 100%;
+  width: 100%;
+}
+#mx .gbg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#mx .group {
+  position: absolute;
+  top: 198px;
+  left: 398px;
+  width: 480px;
+  height: 300px;
+  background: #00487a;
+  border: 2px solid white;
+}
+#mx .gsw {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  width: 480px;
+  height: 300px;
+}
+.mx_head {
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.4);
+  line-height: 60px;
+  text-align: center;
+  color: #00afd5;
+  font-size: 36px;
+}
+.mx_context {
+  margin-top: 20px;
+  width: 100%;
+  height: 120px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+}
+#mxc {
+  position: absolute;
+  top: 420px;
+  left: 400px;
+  width: 480px;
+  height: 60px;
+  display: inline-block;
+}
+#mxc .item {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  background: black;
+}
+#mxc .text {
+  width: 100px;
+  line-height: 60px;
+  margin-left: 0px;
+  text-align: center;
+}
+#pe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+#pe .pbg {
+  height: 100%;
+  width: 100%;
+}
+#pe .gbg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#pe .group {
+  position: absolute;
+  top: 198px;
+  left: 398px;
+  width: 480px;
+  height: 300px;
+  background: #00487a;
+  border: 2px solid white;
+}
+#pe .gsw {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  width: 480px;
+  height: 300px;
+}
+#pei {
+  position: absolute;
+  top: 360px;
+  left: 400px;
+  width: 480px;
+  height: 60px;
+  display: inline-block;
+}
+#pei .item {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+#pei_input {
+  font-size: 32px;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  color: white;
+  text-align: center;
+}
+#st .psw {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  width: 800px;
+  height: 600px;
+  color: white;
+}

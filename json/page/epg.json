@@ -1,0 +1,17 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":""        
+    },
+    "son":
+    [        
+        {"type":"area","name":"egv_area","sn":"egva","class":"farea","cfg":"egv_area"},
+        {"type":"area","name":"egi_area","sn":"egia","class":"farea","cfg":"egi_area"},
+        {"type":"area","name":"egd_area","sn":"egda","class":"farea","cfg":"egd_area"},
+        {"type":"area","name":"egc_area","sn":"egca","class":"farea","cfg":"egc_area"},
+        {"type":"area","name":"ege_area","sn":"egea","class":"farea","cfg":"ege_area"}
+    ]
+
+    
+}

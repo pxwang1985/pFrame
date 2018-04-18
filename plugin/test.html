@@ -1,0 +1,49 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+            <script type="text/javascript" src="soapclient.js"></script>
+            <script type="text/javascript" src="xml2json.js"></script>
+            <script type="text/javascript" src="student.js"></script>
+            
+	<script type="text/javascript">
+	function HelloWorld()
+	{
+        /*
+		var pl = new SOAPClientParameters();
+                pl.add('channel_id', '12');
+                pl.add('shift_time', '3600');
+        SOAPClient.invoke("http://43.250.44.35/cms/timeshiftserver.php?", "timeshift_getlink", pl, true, GetSoapResponse_callBack);
+        */
+
+        var a = new Student({"name":"gogo"});
+        var b = new Student();
+        a.setName("pxwang");
+        b.setName("wywang");
+        console.log(a.getName());
+        console.log(b.getName());
+
+	}
+	function GetSoapResponse_callBack(r, soapResponse)
+	{
+            //alert("AAA");
+            //alert("r: " + r);
+            //alert("SOAP response: " + soapResponse.responseText);
+
+            var x2js = new X2JS();
+            var jsonObj = x2js.xml_str2json( soapResponse.responseText );
+            var a = jsonObj.Envelope.Body["timeshift_getlink"+"Response"].return.__text;
+            var b = x2js.xml_str2json(a);
+	}
+        </script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div id="result">TODO write content</div>
+        <button onclick="HelloWorld();">OK</button>
+    </body>
+</html>

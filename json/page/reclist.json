@@ -1,0 +1,13 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":""        
+    },
+    "son":
+    [        
+        {"type":"area","name":"rtl_area","sn":"rtla","class":"farea","cfg":"farea"}
+    ]
+
+    
+}

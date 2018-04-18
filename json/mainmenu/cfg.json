@@ -1,0 +1,15 @@
+{
+    "area":[
+        {"name":"area0","css":"","template":"","son":"select0"},
+        {"name":"area1","css":"","template":"","son":"list0"},
+        {"name":"area2","css":"","template":"","son":""}
+    ],
+    "item":{
+        "select0":{"type":"select","data":"data0"},
+        "list0":{"type":"list","data":"data1"}
+    },
+    "data":{
+        "data0":{"type":"path","data":""},
+        "data1":{"type":"dat","data":""}
+    }
+}

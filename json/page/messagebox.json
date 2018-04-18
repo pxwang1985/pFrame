@@ -1,0 +1,11 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":"<div class='messagebox_bg'></div>"        
+    },    
+    "son":
+    [
+        {"type":"area","name":"mx_area","sn":"mxup","class":"farea","cfg":"mx_area"}
+    ]
+}

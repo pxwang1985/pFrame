@@ -1,0 +1,21 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":""        
+    },
+    "son":
+    [        
+        {"type":"area","name":"atc_area","sn":"egva","class":"larea","cfg":"atc_area"},
+        {"type":"area","name":"atf_area","sn":"egia","class":"rarea","cfg":"atf_area"},
+        {"type":"area","name":"atd_area","sn":"egda","class":"rarea","cfg":"atd_area"},
+        {"type":"area","name":"atv_area","sn":"egca","class":"rarea","cfg":"atv_area"},
+        {"type":"area","name":"atw_area","sn":"egea","class":"rarea","cfg":"atw_area"},
+        {"type":"area","name":"atfd_area","sn":"egea","class":"rarea","cfg":"atfd_area"},
+        {"type":"area","name":"atn_area","sn":"egea","class":"rarea","cfg":"atn_area"},
+        {"type":"area","name":"atwf_area","sn":"egea","class":"rarea","cfg":"atwf_area"},
+        {"type":"area","name":"atch_area","sn":"egea","class":"rarea","cfg":"atch_area"},
+        {"type":"area","name":"atoff_area","sn":"egea","class":"rarea","cfg":"atoff_area"}
+    ]   
+    
+}

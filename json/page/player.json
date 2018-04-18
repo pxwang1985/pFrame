@@ -1,0 +1,14 @@
+{
+    "bg":
+    {
+        "type":"html",
+        "text":""        
+    },
+    "son":
+    [        
+        {"type":"area","name":"pll_area","sn":"plla","class":"farea","cfg":"pll_area"},
+        {"type":"area","name":"plv_area","sn":"plva","class":"farea","cfg":"plv_area"}
+    ]
+
+    
+}
